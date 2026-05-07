@@ -36,6 +36,7 @@ The Email Phishing Detector scans email text for common malicious indicators. It
 
 ## 📂 Project Structure
 This repository is organized as a **Monorepo**:
+
 ```text
 ├── backend/            # Express.js API & Security Logic
 │   └── server.js       # Main server entry point
@@ -43,26 +44,43 @@ This repository is organized as a **Monorepo**:
 │   └── src/            # UI Components & Styling
 ├── vercel.json         # Deployment & Routing configuration
 └── README.md           # Project Documentation
+```
 
-⚙️ Local Setup
-1. Clone the repository
-Bash
-git clone [https://github.com/Yahav78/Email-Phishing-Detector.git](https://github.com/Yahav78/Email-Phishing-Detector.git)
+---
+
+## ⚙️ Local Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Yahav78/Email-Phishing-Detector.git
 cd Email-Phishing-Detector
-2. Setup Backend
-Bash
+```
+
+### 2. Setup Backend
+
+```bash
 cd backend
 npm install
 npm start
-3. Setup Frontend
+```
+
+### 3. Setup Frontend
+
 Open a new terminal window:
 
-Bash
+```bash
 cd frontend
 npm install
 npm run dev
-⚠️ Disclaimer
+```
+
+---
+
+## ⚠️ Disclaimer
 This tool is intended for educational and simulation purposes only. While it uses effective detection patterns, it should not be used as a primary security solution for enterprise environments.
 
-👤 Author
+---
+
+## 👤 Author
 Yahav Vituri - Computer Science Student @ Ramat Gan Academic College
