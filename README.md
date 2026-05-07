@@ -62,7 +62,7 @@ cd Email-Phishing-Detector
 ```bash
 cd backend
 npm install
-npm start
+node server.js
 ```
 
 ### 3. Setup Frontend
